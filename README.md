@@ -8,7 +8,7 @@ These package is dedicated for users (just like me), which had an issue with com
 
 ## Use-case
 
-Add these lines into your steps section in the workflow file and fill the secrets.
+Add these lines into your steps section in the workflow file and fill the secrets in your repository.
 
 ```
   uses = "truskul/github-actions-composer-credentials@master"
