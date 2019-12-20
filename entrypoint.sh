@@ -1,3 +1,14 @@
 #!/bin/bash
+mkdir ~/.composer/
+touch ~/.composer/auth.json
 
-composer config http-basic.${COMPOSER_AUTH_HOST} ${COMPOSER_AUTH_NAME} ${COMPOSER_AUTH_PASSWORD}
+echo << EOF
+{
+    "http-basic": {
+        "https:\/\/www.phpclasses.org\/": {
+            "username": "${COMPOSER_AUTH_NAME}",
+            "password": "${COMPOSER_AUTH_PASSWORD}"
+        }
+    }
+}
+EOF > ~/.composer/auth.json
