@@ -1,10 +1,10 @@
 # github-actions-composer-credentials
 
-At first, i would thanks for [judge2020](https://github.com/judge2020) for help and introducing to configure Dockerfile dedicated for Github Actions. These project is in fact a fork of [this repo](https://github.com/judge2020/actions-laravel-nova-composer-login)
+At first, I would like to say thanks to [judge2020](https://github.com/judge2020) for helping and introducing to configure Dockerfile dedicated for Github Actions. This project is in fact a fork of [that repository](https://github.com/judge2020/actions-laravel-nova-composer-login)
 
 ## Purpose
 
-These package is dedicated for users (just like me), which had an issue with completing an installation of their project's dependencies because of need of manual authentication from Composer, what basicly is negation of CI.
+The package is dedicated for Github Action users, who had an issue with installation of project dependencies, due to a required authorization to the private respositories. This action is a solution for their issue.
 
 ## Use-case
 
